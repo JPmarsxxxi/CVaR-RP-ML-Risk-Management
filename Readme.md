@@ -46,7 +46,7 @@ The system evaluates **8 models per asset** (56 total) and selects the best perf
 7. **Long Short-Term Memory (LSTM)** - Advanced sequential model with memory
 8. **Transformer** - Multi-head attention mechanism
 
-## 📚 Theoretical Foundation
+## Theoretical Foundation
 
 This implementation is based on the following research paper:
 
@@ -135,7 +135,7 @@ pip install -r requirements.txt
 - `joblib>=1.3.0` - Parallel processing (6x faster training)
 - `numexpr>=2.8.0` - Fast numerical expressions
 
-## 🔬 Project Structure
+## Project Structure
 
 ### Phase 1: Data Setup
 - Download 14 years of daily OHLCV data (2010-2025)
